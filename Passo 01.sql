@@ -1,11 +1,11 @@
 --Passo 1
---CriaÁ„o de chave prim·ria composta para garantir a unicidade
---dos municÌpios por Unidade da FederaÁ„o
+--Cria√ß√£o de chave prim√°ria composta para garantir a unicidade
+--dos munic√≠pios por Unidade da Federa√ß√£o
 
 
 ALTER TABLE
 	pop2025_20260113
 ADD CONSTRAINT PK01_pop2025
 PRIMARY KEY (
-cod_uf, cod_municipio
+	cod_uf, cod_municipio
 );
